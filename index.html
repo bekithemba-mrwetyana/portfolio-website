@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Bekithemba Mrwetyana | Aspiring Software Developer</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container nav-flex">
+            <div class="logo">Bekithemba</div>
+            <button class="menu-toggle" id="menuToggle" aria-label="Menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <button class="dark-toggle" id="darkToggle" aria-label="Toggle dark mode">
+                <i class="fas fa-moon"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#competencies">Competencies</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-name" id="heroName"></div>
+                <div class="hero-title" id="heroTitle"></div>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary"><i class="fas fa-arrow-down"></i> See Work</a>
+                    <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+                    <a href="#" class="btn btn-resume" id="resumeBtn"><i class="fas fa-file-alt"></i> Download Resume</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section id="about" class="section">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">About Me</h2>
+                <div class="about-wrapper scroll-animate fade-up">
+                    <div class="about-grid">
+                        <div class="about-content">
+                            <div class="about-intro scroll-animate fade-left">
+                                I'm a motivated developer with a Diploma in ICT Applications
+                                Development. Passionate about creating robust apps, from quiz
+                                games to wellness platforms. Open to any type of job —
+                                <em>let's build something great.</em>
+                            </div>
+                            <div class="about-bio scroll-animate fade-left">
+                                Hello! I'm Bekithemba, an aspiring software developer based in
+                                Cape Town, South Africa. My passion lies in building
+                                meaningful digital solutions — from quiz games to wellness
+                                platforms that support students.
+                            </div>
+                            <div class="about-bio scroll-animate fade-left">
+                                I hold a Diploma in ICT Applications Development from CPUT,
+                                where I gained hands-on experience with full-stack
+                                technologies, databases, and software design.
+                            </div>
+                            <div class="about-details">
+                                <span class="detail-chip scroll-animate fade-scale"> <i class="fas fa-map-marker-alt"></i> Cape Town, South Africa</span>
+                                <span class="detail-chip scroll-animate fade-scale"> <i class="fas fa-briefcase"></i> Open to any type of job (remote / onsite / hybrid)</span>
+                            </div>
+                            <div class="info-links">
+                                <div class="info-row scroll-animate fade-left"><i class="fas fa-envelope"></i><a href="mailto:mrwetyanabekithemba69@gmail.com">mrwetyanabekithemba69@gmail.com</a></div>
+                                <div class="info-row scroll-animate fade-left"><i class="fab fa-github"></i><a href="https://github.com/BekithembaMrwetyana">Bekithemba Mrwetyana</a></div>
+                                <div class="info-row scroll-animate fade-left"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/bekithembamrwetyana/">Bekithemba Mrwetyana</a></div>
+                            </div>
+                        </div>
+                        <div class="about-image scroll-animate zoom-in">
+                            <div class="profile-card">
+                                <img src="assets/images/profile.jpg" alt="Bekithemba" class="profile-img-large" />
+                                <h3>Bekithemba Mrwetyana</h3>
+                                <p>Aspiring Software Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Quote -->
+        <div class="container">
+            <div class="quote-section scroll-animate fade-scale">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <div class="quote-text">"Code is not just logic — it's a craft. I build with purpose, refactor with patience, and solve with creativity. Every line tells a story."</div>
+                <div class="quote-author">— Bekithemba Mrwetyana</div>
+            </div>
+        </div>
+
+        <!-- Competencies -->
+        <section id="competencies" class="section section-alt">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">Core Competencies</h2>
+                <div class="competencies-grid stagger-children">
+                    <div class="competency-card"><div class="competency-icon"><i class="fas fa-code-branch"></i></div><h3>Clean Code</h3><div class="competency-sub">Maintainable & Readable</div><p class="competency-desc">Prioritize readability and modularity using SOLID principles and DRY best practices.</p></div>
+                    <div class="competency-card"><div class="competency-icon"><i class="fas fa-brain"></i></div><h3>Problem Solving</h3><div class="competency-sub">Algorithmic Thinking</div><p class="competency-desc">Translate complex requirements into optimized, logical solutions with system design mindset.</p></div>
+                    <div class="competency-card"><div class="competency-icon"><i class="fas fa-sync-alt"></i></div><h3>Refactoring</h3><div class="competency-sub">Continuous Improvement</div><p class="competency-desc">Continuous refactoring to reduce technical debt and improve long-term maintainability.</p></div>
+                    <div class="competency-card"><div class="competency-icon"><i class="fas fa-tachometer-alt"></i></div><h3>Performance Optimization</h3><div class="competency-sub">Fast & Scalable</div><p class="competency-desc">Focusing on fast-loading, high-performance web apps with efficient caching and queries.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Fun Facts -->
+        <section class="section">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">Fun Facts About Me</h2>
+                <div class="fun-facts-grid stagger-children">
+                    <div class="fact-card"><i class="fas fa-code"></i><h4>First Code</h4><p>Built my first "Hello World" in Python and never looked back since.</p></div>
+                    <div class="fact-card"><i class="fas fa-book"></i><h4>Self-Taught</h4><p>Completed 10+ online courses to supplement my university curriculum.</p></div>
+                    <div class="fact-card"><i class="fas fa-users"></i><h4>Team Player</h4><p>Led a 5-person group project for our final year capstone.</p></div>
+                    <div class="fact-card"><i class="fas fa-clock"></i><h4>Night Owl</h4><p>My most productive coding sessions happen between 10 PM - 2 AM.</p></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section id="skills" class="section section-alt">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">Tech Stack & Tools</h2>
+                <div class="skills-category">
+                    <h3 class="scroll-animate fade-right"><i class="fas fa-code"></i> Programming Languages</h3>
+                    <div class="skills-grid-category stagger-children">
+                        <span class="skill-tag"><i class="fab fa-python"></i> Python</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> JavaScript</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Java</span>
+                        <span class="skill-tag"><i class="fas fa-code"></i> C# (Unity)</span>
+                        <span class="skill-tag"><i class="fab fa-js"></i> TypeScript</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="scroll-animate fade-right"><i class="fas fa-cubes"></i> Frameworks & Libraries</h3>
+                    <div class="skills-grid-category stagger-children">
+                        <span class="skill-tag"><i class="fab fa-react"></i> React.js</span>
+                        <span class="skill-tag"><i class="fab fa-vuejs"></i> Vue.js</span>
+                        <span class="skill-tag"><i class="fab fa-django"></i> Django</span>
+                        <span class="skill-tag"><i class="fab fa-java"></i> Spring Boot</span>
+                        <span class="skill-tag"><i class="fab fa-unity"></i> Unity</span>
+                        <span class="skill-tag"><i class="fas fa-plug"></i> REST APIs</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="scroll-animate fade-right"><i class="fas fa-database"></i> Databases</h3>
+                    <div class="skills-grid-category stagger-children">
+                        <span class="skill-tag"><i class="fas fa-database"></i> SQLite</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> MySQL</span>
+                        <span class="skill-tag"><i class="fas fa-database"></i> PostgreSQL</span>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="scroll-animate fade-right"><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <div class="skills-grid-category stagger-children">
+                        <span class="skill-tag"><i class="fab fa-git-alt"></i> Git/GitHub</span>
+                        <span class="skill-tag"><i class="fas fa-cloud"></i> Postman</span>
+                        <span class="skill-tag"><i class="fab fa-figma"></i> Figma</span>
+                        <span class="skill-tag"><i class="fas fa-terminal"></i> VS Code</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">Featured Projects</h2>
+                <div class="projects-grid stagger-children">
+                    <div class="project-card"><img class="project-image" src="https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=400&fit=crop" alt="Quiz Game" /><div class="project-content"><h3>Programming Language Quiz Game</h3><p class="project-desc">Interactive quiz game with score tracking and dynamic question handling. Integrated SQLite for local data storage. Built with Unity and C# for smooth gameplay.</p><div class="project-tech"><span>Unity</span><span>C#</span><span>SQLite</span></div><div class="card-links"><a href="#"><i class="fab fa-github"></i> Code</a><a href="#"><i class="fas fa-external-link-alt"></i> Demo</a></div></div></div>
+                    <div class="project-card"><img class="project-image" src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&h=400&fit=crop" alt="Wellness Platform" /><div class="project-content"><h3>Student Mental Wellness Platform</h3><p class="project-desc">Full-stack web app with Django REST API + React (TypeScript) frontend. Features user authentication, mood tracking, and resource library for student well-being.</p><div class="project-tech"><span>Django</span><span>React (TS)</span><span>SQLite</span><span>REST API</span></div><div class="card-links"><a href="#"><i class="fab fa-github"></i> Repo</a><a href="#"><i class="fas fa-external-link-alt"></i> Live Preview</a></div></div></div>
+                    <div class="project-card"><img class="project-image" src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?w=600&h=400&fit=crop" alt="Smart Safe" /><div class="project-content"><h3>Vault of Elements (Smart Safe)</h3><p class="project-desc">A smart, puzzle-based vault that uses sensor inputs to decide whether to grant or deny access. It doesn't use keys, passwords, or biometrics – instead, the user must interact with their physical environment and timing to unlock.</p><div class="project-tech"><span>Raspberry Pi</span><span>Python</span><span>VNC Viewer</span></div><div class="card-links"><a href="#"><i class="fab fa-github"></i> Repo</a><a href="#"><i class="fas fa-external-link-alt"></i> Live Preview</a></div></div></div>
+                    <div class="project-card"><img class="project-image" src="https://images.unsplash.com/photo-1600157390588-947f72d196b1?w=600&h=400&fit=crop" alt="Digital Art Store" /><div class="project-content"><h3>Digital Art Store</h3><p class="project-desc">E-commerce platform for digital artwork: Spring Boot backend, Vue.js frontend, MySQL database. Includes secure checkout, user carts, and artwork galleries.</p><div class="project-tech"><span>Spring Boot</span><span>Vue.js</span><span>MySQL</span><span>Java</span></div><div class="card-links"><a href="#"><i class="fab fa-github"></i> Source</a><a href="#"><i class="fas fa-external-link-alt"></i> Try Store</a></div></div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section id="education" class="section section-alt">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">Education & Qualifications</h2>
+                <div class="education-section scroll-animate fade-scale">
+                    <div class="edu-item"><div class="edu-title">Diploma in ICT Applications Development</div><div class="edu-detail">Cape Peninsula University of Technology</div><div class="edu-date">Completed: 2025</div></div>
+                    <div class="edu-item"><div class="edu-title">National Senior Certificate</div><div class="edu-detail">Khulani High School</div><div class="edu-date">Completed: 2021</div></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section id="contact" class="section section-alt">
+            <div class="container">
+                <h2 class="scroll-animate fade-up">Let's connect</h2>
+                <div class="contact-split">
+                    <div class="contact-info scroll-animate fade-left">
+                        <h3><i class="fas fa-address-card"></i> My Info</h3>
+                        <div class="contact-detail-item"><i class="fas fa-envelope"></i><a href="mailto:mrwetyanabekithemba69@gmail.com" class="contact-link">mrwetyanabekithemba69@gmail.com</a></div>
+                        <div class="contact-detail-item"><i class="fab fa-linkedin"></i><a href="https://www.linkedin.com/in/bekithembamrwetyana/" class="contact-link">Bekithemba Mrwetyana</a></div>
+                        <div class="contact-detail-item"><i class="fab fa-github"></i><a href="https://github.com/BekithembaMrwetyana" class="contact-link">Bekithemba Mrwetyana</a></div>
+                        <div class="contact-detail-item"><i class="fas fa-map-marker-alt"></i><span>Cape Town, South Africa</span></div>
+                        <div class="contact-detail-item"><i class="fas fa-briefcase"></i><span>Open to any type of job (remote / onsite / hybrid)</span></div>
+                    </div>
+                    <div class="contact-form-wrapper scroll-animate fade-right">
+                        <h3><i class="fas fa-paper-plane"></i> Send a message</h3>
+                        <form id="contactForm">
+                            <div class="input-group"><input type="text" id="name" placeholder="Your name" required /></div>
+                            <div class="input-group"><input type="email" id="email" placeholder="Email address" required /></div>
+                            <div class="input-group"><textarea rows="4" id="message" placeholder="Share your idea or opportunity..." required></textarea></div>
+                            <button type="submit"><i class="fas fa-paper-plane"></i> Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/BekithembaMrwetyana" title="GitHub profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+                <a href="https://www.linkedin.com/in/bekithembamrwetyana/" title="LinkedIn profile"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                <a href="mailto:mrwetyanabekithemba69@gmail.com" title="Send an email"><i class="fas fa-envelope" aria-hidden="true"></i></a>
+            </div>
+            <p>© 2026 Bekithemba Mrwetyana — Aspiring Software Developer. Built with <i class="fas fa-heart" style="color: #ef4444"></i></p>
+            <p style="margin-top: 0.5rem; font-size: 0.8rem">"From Cape Town to the world — open for opportunities"</p>
+        </div>
+    </footer>
+    <div id="toastMsg" class="toast-msg">✨ Message sent — thanks for reaching out!</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
